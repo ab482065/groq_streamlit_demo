@@ -16,7 +16,7 @@ def icon(emoji: str):
 
 icon("🏎️")
 
-st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
+st.subheader("AI Search assisstant", divider="rainbow", anchor=False)
 
 client = Groq(
     api_key=st.secrets["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"],
