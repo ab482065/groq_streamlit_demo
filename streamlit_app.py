@@ -19,7 +19,7 @@ icon("🏎️")
 st.subheader("AI Search assisstant", divider="rainbow", anchor=False)
 
 client = Groq(
-    api_key=st.secrets["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"],
+    api_key=st.secrets["GROQ_API_KEY"],
 )
 
 # Initialize chat history and selected model
